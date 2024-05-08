@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <title> system Ah </title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="title">
+                <h1> system .. Ah </h1>
+                <p> product management system </p>
+            </div>
+            <div class="inputs">
+                <div class="in-title">
+                    <input type="text"
+                    id="tiinp"
+                    placeholder="Title"
+                    >
+                </div>
+                <div class="in-product">
+                    <input type="number"
+                    id="price"
+                    placeholder="Price"
+                    >
+                    <input type="number"
+                    id="taxes"
+                    placeholder="Taxes"
+                    >
+                    <input type="number"
+                    id="ads"
+                    placeholder="Ads"
+                    >
+                    <input type="number"
+                    id="discount"
+                    placeholder="Discount"
+                    >
+                </div>
+                <div class="in-types">
+                    <input type="text"
+                    placeholder=" عدد المنتجات "
+                    id="count"
+                >
+                <input type="text"
+                placeholder="Category"
+                id="cate"
+                >
+                <span id="total"> Total : </span>
+                </div>
+                <div class="create">
+                    <button id="btncreat">Create</button>
+                </div>
+                <div class="search">
+                    <input type="text"
+                    placeholder="Search"
+                    id="search"
+                    >
+                </div>
+                <div class="sort">
+                    <button id = 'setit'>
+                        Search By categort
+                    </button>
+                    <button id = 'secate'>
+                        Search By Title
+                    </button>
+                </div>
+                <div class="deletee">
+                </div>
+                <div class="table">
+                    <table>
+                        <tr>
+                            <th>id</th>
+                            <th>title</th>
+                            <th>price</th>
+                            <th>taxes</th>
+                            <th>abs</th>
+                            <th>discount</th>
+                            <th>total</th>
+                            <th>category</th>
+                            <th>update</th>
+                            <th>delete</th>
+                        </tr>
+                        <tbody id = 'tbody'>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

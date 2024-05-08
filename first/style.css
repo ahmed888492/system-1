@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body {
+    height: 100%;
+    width: 100vw;
+    background-color: #222;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.content {
+    width: 100%;
+}
+.container .title {
+    font-weight: 600;
+    margin-top: 50px;
+    color: #fff;
+    text-align: center;
+    gap: 10px;
+    text-transform: capitalize;
+    width: 100%;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title p {
+    text-transform: uppercase;
+}
+.inputs {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.inputs .in-title,
+.in-types {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.in-title {
+    flex-direction: column;
+}
+.in-title input,
+.search input {
+    width: 85% !important ;
+    margin: auto;
+}
+.in-product {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.in-title input ,
+.in-product input ,
+.in-types input,
+.search input{
+    padding: 7px;
+    height: 45px;
+    border: none;
+    outline: none;
+    background: #000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #686767;
+    text-transform: capitalize;
+    font-size: 15px;
+    cursor: pointer;
+    width: 20%;
+}
+.in-title input:focus ,
+.in-product input:focus,
+.in-types input:focus {
+    scale: 1.12;
+}
+#total {
+    min-width: 100px;
+    background: #582f2f;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    color: #1d1b1b;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+}
+.create ,
+.search ,
+.sort ,
+.deletee {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.create button ,
+.sort button,
+.deletee button{
+    width: 70%;
+    border: .5px solid #fff;
+    height: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: #fff;
+    background: #1b0325;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    font-weight: bold;
+}
+.sort {
+    justify-content: space-around;
+}
+.sort button {
+    width: 45%;
+}
+.create button:hover ,
+.sort button:hover,
+.deletee button:hover{
+    color: #ffffff;
+    background: #000000;
+}
+.table {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.table table {
+    width: 100%;
+    text-align: center;
+    color: #eee;
+    margin-top: 30px;
+}
+table tbody tr td button {
+    padding: 5px;
+    border:none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background:#1b0325;
+    color: #fff;
+    cursor: pointer;
+    transition: .6s ease;
+    -webkit-transition: .6s ease;
+    -moz-transition: .6s ease;
+    -ms-transition: .6s ease;
+    -o-transition: .6s ease;
+}
+
+table tbody tr td button:hover {
+    background: #000000;
+}
+/* end *\
